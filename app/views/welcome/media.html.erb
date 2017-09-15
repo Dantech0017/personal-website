@@ -1,0 +1,322 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dante Alvarado-Leon</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Dante Alavarado-Leon, MentorRoom " />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="assets/classie.js"></script>
+			<!--top-nav -->
+			<!-- <div class="logo">
+				<a href="#"><img src="assets/logo.png" alt=""/></a>
+			</div> -->
+
+			<div class="top-nav">
+				<%= link_to "about", "#{root_path}#about", class: "media-link"  %>
+
+				<%= link_to 'portfolio', "#{root_path}#portfolio", class: "media-link" %> 
+
+				<%= link_to "blog", "#{root_path}#blog", class: "media-link"  %>
+
+				<%= link_to 'media', media_path, class: "media-link" %> 
+
+				<%= link_to "contact", "#{root_path}#contact", class: "media-link"  %>
+
+				<div class="clearfix"> </div>
+   
+			</div>
+
+	
+
+
+			<!-- -start-click-drop-down-menu -->
+			        <!-- start-dropdown-->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!-- -//End-click-drop-down-menu -->
+			<!-- <div class="clearfix"> </div> -->
+		</div>
+
+
+
+		<div class="banner-info">
+			<!-- <div class="banner-left">
+				<img class="img-circle" src="assets/1"/>
+			</div> -->
+			<div class="col-md-offset-4 col-md-4 banner-font">
+				<h1>WELCOME TO MY MEDIA</h1>
+				<div class="border"></div>
+				<!-- <h2>ENTREPRENEUR & TECH ENTHUSIAST</h2> -->
+				<!-- <p> In one line: I have a love for tech, but a passion for people.</p> -->
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- /header-banner -->
+
+
+
+
+<!--blog-->
+<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>BLOG</h3>
+			<div class="strip text-center"><img src="assets/blog.png" alt=" "/></div>
+		</div>
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>	
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="assets/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//blog-->
+<!-- <div class="contact-back"></div> -->
+
+
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT ME</h3>
+			<div class="strip text-center"><img src="assets/con1.png" alt=" "/></div>
+		</div>
+
+		<!-- <div> 
+			<h3 class="contact-grids col-md-5 contact-left">Connect with me on LinkedIn</h3>
+		</div> -->
+		<div class=" contact-grids">
+			<div class="col-md-4 col-md-offset-4 contact-left">
+				<h3 class="white-text">Connect with me on <a class="white-text" href="linkedin.com">LinkedIn</a>!</h3>
+				<!-- <ul>
+					<li><a href="linkedin.com">linkedin</a></li>
+					<li><a href="twitter.com">twitter</a></li>
+				</ul> -->
+			</div>
+		</div>
+			
+	</div>
+</div>
+<!--//contact-->
+
+<!-- <div class="footer-top"></div> -->
+
+
+<!--resume-->
+<!-- <div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="assets/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+	</div>
+</div> -->
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Made with excitement by Dante Alvarado-Leon :)</p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
