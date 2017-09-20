@@ -10,6 +10,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   margin-top: 0px !important;
 }
 
+.teal-text {
+  color: #009cd2 !important;
+}
+
+.darkblue { 
+  color: #0029ae !important;
+}
+
 .portfolio-image { 
     width: 349.98px;
 
@@ -352,9 +360,12 @@ background: url(../assets/icons.png) no-repeat 0px -71px;
 .my-skills{
 	/*background: #1abc9c;*/
   /*background: #000e13;*/
-  background: #1d4c4c;
+  /*background: #1d4c4c;  darkgreen*/
+  background: #04306e; /* darkblue */
 	padding: 60px 0;
 }
+
+
 .my-skills h3{
 margin:0;
 color:#ffffff;
@@ -1199,8 +1210,9 @@ position:relative;
 /*-- blog --*/
 /*-- contact --*/
 .contact{
-background:rgb(0, 167, 226);
-padding:60px 0 0 0;
+/*background:rgb(0, 167, 226); teal*/
+  background: rgb(59, 186, 231); 
+  padding:60px 0 0 0;
 }
 .contact-info h3 {
   margin: 0;
